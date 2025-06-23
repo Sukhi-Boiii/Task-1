@@ -1,1 +1,110 @@
 hello this is my first task 
+this is the nmap result:-
+
+# Nmap 7.94SVN scan initiated Mon Jun 23 12:01:53 2025 as: nmap -sS -oN nmapcmd.txt <REDACTED-IP>/24
+Nmap scan report for <REDACTED-IP>
+Host is up (0.0037s latency).
+Not shown: 989 closed tcp ports (reset)
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+53/tcp   open     domain
+80/tcp   open     http
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+443/tcp  open     https
+445/tcp  filtered microsoft-ds
+3517/tcp filtered 802-11-iapp
+8082/tcp filtered blackice-alerts
+MAC Address: <REDACTED>
+
+Nmap scan report for <REDACTED-IP>
+Host is up (0.011s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+MAC Address: <REDACTED>
+
+Nmap scan report for <REDACTED-IP>
+Host is up (0.019s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8000/tcp open  http-alt
+9010/tcp open  sdr
+MAC Address: <REDACTED>
+
+Nmap scan report for <REDACTED-IP>
+Host is up (0.021s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE
+111/tcp  open  rpcbind
+631/tcp  open  ipp
+999/tcp  open  garcon
+1021/tcp open  exp1
+1023/tcp open  netvenuechat
+2049/tcp open  nfs
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+MAC Address: <REDACTED>
+
+Nmap scan report for <REDACTED-IP>
+Host is up (0.011s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: <REDACTED>
+
+Nmap scan report for <REDACTED-IP>
+Host is up (0.017s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: <REDACTED>
+
+Nmap scan report for <REDACTED-IP>
+Host is up (0.046s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+7070/tcp open  realserver
+MAC Address: <REDACTED>
+
+Nmap scan report for <REDACTED-IP>
+Host is up (0.29s latency).
+All 1000 scanned ports on <REDACTED-IP> are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: <REDACTED>
+
+Nmap scan report for <REDACTED-IP>
+Host is up (0.015s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: <REDACTED>
+
+Nmap scan report for <REDACTED-IP>
+Host is up (0.0049s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE SERVICE
+5000/tcp  open  upnp
+7000/tcp  open  afs3-fileserver
+49152/tcp open  unknown
+MAC Address: <REDACTED>
+
+Nmap scan report for <REDACTED-IP>
+Host is up (0.0000040s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+111/tcp  open  rpcbind
+9876/tcp open  sd
+
+# Nmap done at Mon Jun 23 12:02:58 2025 -- 256 IP addresses (11 hosts up) scanned in 64.64 seconds
+
+i also checked wireshark 
